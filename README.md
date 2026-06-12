@@ -21,7 +21,7 @@ Available in English and Polish 🇬🇧🇵🇱
 - Add clothing items with photos taken from camera or gallery
 - Describe each item with rich properties: colors, patterns, cut, textile, occasion, and more
 - Rate items by comfort, fit feel, price, and how much you want to keep them
-- Edit, delete, and browse your full wardrobe in list or grid view
+- Edit, delete, and browse your full wardrobe
 - Filter items by any combination of properties
 
 ### Outfits
@@ -34,6 +34,13 @@ Available in English and Polish 🇬🇧🇵🇱
 - See which colors, patterns, and occasions dominate your wardrobe
 - Identify underused items and style tendencies
 
+### Summaries
+- Wardrobe summary by Category, Feel, Frequency and Appereance
+- See which styles, fits, or colors you tend to keep or let go in each clothing category
+- Understand how you feel in your clothes and what features are linked to feeling like yourself
+- Discover what you actually wear - explore the traits of your most (and least) worn items
+- Find out what makes you feel beatiful and how your wardrobe reflects your self-image
+
 ## 📦 Tech Stack
 
 - **React Native** with **Expo**
@@ -41,17 +48,6 @@ Available in English and Polish 🇬🇧🇵🇱
 - **TypeScript**
 - **React Native Paper** UI components
 - **i18next** for EN/PL localisation
-
-## 🛠 Development
-
-```bash
-git clone https://github.com/wmaterkowska/SetMyStyle.git
-cd SetMyStyle/wardrobe
-npm install
-npx expo run:android
-```
-
-Requires Node.js and an Android emulator or connected device.
 
 ## 📝 License
 
