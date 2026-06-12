@@ -21,7 +21,7 @@ Available in English and Polish 🇬🇧🇵🇱
 - Add clothing items with photos taken from camera or gallery
 - Describe each item with rich properties: colors, patterns, cut, textile, occasion, and more
 - Rate items by comfort, fit feel, price, and how much you want to keep them
-- Edit, delete, and browse your full wardrobe in list or grid view
+- Edit, delete, and browse your full wardrobe
 - Filter items by any combination of properties
 
 ### Outfits
@@ -41,17 +41,6 @@ Available in English and Polish 🇬🇧🇵🇱
 - **TypeScript**
 - **React Native Paper** UI components
 - **i18next** for EN/PL localisation
-
-## 🛠 Development
-
-```bash
-git clone https://github.com/wmaterkowska/SetMyStyle.git
-cd SetMyStyle/wardrobe
-npm install
-npx expo run:android
-```
-
-Requires Node.js and an Android emulator or connected device.
 
 ## 📝 License
 
