@@ -34,6 +34,13 @@ Available in English and Polish 🇬🇧🇵🇱
 - See which colors, patterns, and occasions dominate your wardrobe
 - Identify underused items and style tendencies
 
+### Summaries
+- Wardrobe summary by Category, Feel, Frequency and Appereance
+- See which styles, fits, or colors you tend to keep or let go in each clothing category
+- Understand how you feel in your clothes and what features are linked to feeling like yourself
+- Discover what you actually wear - explore the traits of your most (and least) worn items
+- Find out what makes you feel beatiful and how your wardrobe reflects your self-image
+
 ## 📦 Tech Stack
 
 - **React Native** with **Expo**
