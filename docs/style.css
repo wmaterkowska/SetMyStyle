@@ -1,0 +1,323 @@
+/* ─── VARIABLES ─── */
+:root {
+  --bg: #F8F7F5;
+  --text: #1A1A18;
+  --primary: #111111;
+  --on-primary: #FFFFFF;
+  --sage: #5C6B55;
+  --caramel: #8B6B4A;
+  --surface: #F0EDE8;
+  --outline: #8A8680;
+  --outline-variant: #D5D0CA;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161310;
+    --text: #EBE5DE;
+    --primary: #E8E8E8;
+    --on-primary: #111111;
+    --sage: #9AB095;
+    --caramel: #C8A07A;
+    --surface: #302C28;
+    --outline: #8F8580;
+    --outline-variant: #3D3934;
+  }
+}
+
+/* ─── RESET ─── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+a {
+  color: var(--sage);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ─── HEADER ─── */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--bg);
+  border-bottom: 1px solid var(--outline-variant);
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--text);
+}
+
+.header-brand img {
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+}
+
+.brand-name {
+  font-size: 1.1rem;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.brand-name .my {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+header nav a {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text);
+  padding: 0.4rem 1.1rem;
+  border: 1px solid var(--outline);
+  border-radius: 4px;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+header nav a:hover {
+  background: var(--primary);
+  color: var(--on-primary);
+  border-color: var(--primary);
+  text-decoration: none;
+}
+
+/* ─── HERO ─── */
+#hero {
+  padding: 5rem 1.5rem 4.5rem;
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+#hero h1 {
+  font-size: clamp(1.9rem, 5vw, 3rem);
+  font-weight: 300;
+  line-height: 1.25;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+}
+
+#hero h1 .my {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600;
+}
+
+#hero .hero-sub {
+  font-size: 1.05rem;
+  opacity: 0.7;
+  max-width: 560px;
+  margin: 0 auto 2.5rem;
+}
+
+/* ─── BUTTONS ─── */
+.btn {
+  display: inline-block;
+  padding: 0.85rem 2.25rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  text-decoration: none;
+}
+
+.btn:hover {
+  opacity: 0.82;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: var(--on-primary);
+}
+
+/* ─── FEATURES ─── */
+#features {
+  background: var(--surface);
+  padding: 4rem 1.5rem;
+}
+
+#features h2 {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-bottom: 2.5rem;
+  letter-spacing: -0.01em;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+@media (min-width: 700px) {
+  .features-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.feature-card {
+  background: var(--bg);
+  border-radius: 8px;
+  padding: 1.75rem;
+  border: 1px solid var(--outline-variant);
+}
+
+.feature-card h3 {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  font-size: 0.75rem;
+  color: var(--caramel);
+  margin-bottom: 0.9rem;
+}
+
+.feature-card ul {
+  list-style: none;
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+
+.feature-card ul li::before {
+  content: '— ';
+  color: var(--sage);
+}
+
+/* ─── SCREENSHOTS ─── */
+#screenshots {
+  padding: 4rem 1.5rem;
+  text-align: center;
+}
+
+#screenshots h2 {
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-bottom: 2.5rem;
+  letter-spacing: -0.01em;
+}
+
+.screenshots-row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.screenshot-frame {
+  width: 180px;
+  height: 320px;
+  border-radius: 28px;
+  border: 2px dashed var(--outline);
+  background: var(--surface);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.screenshot-frame span {
+  font-size: 0.75rem;
+  color: var(--outline);
+  text-align: center;
+  line-height: 1.6;
+}
+
+.screenshot-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 26px;
+}
+
+/* ─── DOWNLOAD ─── */
+#download {
+  background: var(--surface);
+  padding: 4.5rem 1.5rem;
+  text-align: center;
+}
+
+#download h2 {
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  letter-spacing: -0.01em;
+}
+
+.download-desc {
+  font-size: 0.95rem;
+  opacity: 0.7;
+  max-width: 480px;
+  margin: 0 auto 2rem;
+  line-height: 1.75;
+}
+
+.download-note {
+  margin-top: 1.25rem;
+  font-size: 0.78rem;
+  opacity: 0.6;
+}
+
+.availability-tags {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.tag {
+  padding: 0.25rem 0.8rem;
+  border-radius: 99px;
+  border: 1px solid var(--outline-variant);
+  font-size: 0.78rem;
+}
+
+/* ─── FOOTER ─── */
+footer {
+  padding: 2.5rem 1.5rem;
+  border-top: 1px solid var(--outline-variant);
+  font-size: 0.78rem;
+  opacity: 0.65;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  text-align: center;
+  line-height: 1.6;
+}
+
+footer a {
+  color: inherit;
+}
+
+footer a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
