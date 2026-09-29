@@ -6,14 +6,23 @@ Available in English and Polish 🇬🇧🇵🇱
 
 ## 📲 Installation
 
-1. Go to the [Releases](../../releases) page of this repository
-2. Download the latest `SetMyStyle-vX.X.X.apk` file
-3. On your Android device, open the downloaded file
-4. If prompted, allow installation from unknown sources
-5. Install and open the app
+1. Download [`SetMyStyle-v2.apk`](Releases/SetMyStyle-v2.apk) from the `Releases` folder of this repository
+2. On your Android device, open the downloaded file
+3. If prompted, allow installation from unknown sources
+4. Install and open the app
 
-> Your data is stored locally on your device and is never sent anywhere.  
-> Updates are delivered automatically on app launch — no reinstall needed.
+**Upgrading from v1?** Install v2 over it — your wardrobe and photos are kept.
+The previous version is still available as [`SetMyStyle-v1.apk`](Releases/SetMyStyle-v1.apk).
+
+> Your data is stored locally on your device and is never sent anywhere. The app never connects to the internet.  
+> New versions are published here — download and install them manually.
+
+## 🆕 What's new in v2 (app version 3.1.0)
+
+- Backup & restore — export your whole wardrobe with photos to a file and import it back, fully offline
+- Full-screen photo viewer with zoom
+- Smoother loading screens
+- The "Condition" property was removed
 
 ## ✨ Features
 
@@ -23,6 +32,8 @@ Available in English and Polish 🇬🇧🇵🇱
 - Rate items by comfort, fit feel, price, and how much you want to keep them
 - Edit, delete, and browse your full wardrobe
 - Filter items by any combination of properties
+- View photos full screen and zoom in on details
+- Back up your whole wardrobe (data + photos) to a file and restore it anytime
 
 ### Outfits
 - Build outfits by combining items from your wardrobe

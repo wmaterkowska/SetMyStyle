@@ -284,6 +284,42 @@ header nav a:hover {
   opacity: 0.6;
 }
 
+.whats-new {
+  background: var(--bg);
+  border: 1px solid var(--outline-variant);
+  border-radius: 8px;
+  padding: 1.5rem 1.75rem;
+  max-width: 480px;
+  margin: 0 auto 2rem;
+  text-align: left;
+}
+
+.whats-new h3 {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  font-size: 0.75rem;
+  color: var(--caramel);
+  margin-bottom: 0.75rem;
+}
+
+.whats-new ul {
+  list-style: none;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.whats-new ul li::before {
+  content: '— ';
+  color: var(--sage);
+}
+
+.legacy-link {
+  margin-top: 0.75rem;
+  font-size: 0.78rem;
+  opacity: 0.6;
+}
+
 .availability-tags {
   display: flex;
   justify-content: center;
