@@ -6,13 +6,13 @@ Available in English and Polish 🇬🇧🇵🇱
 
 ## 📲 Installation
 
-1. Download [`SetMyStyle-v2.apk`](Releases/SetMyStyle-v2.apk) from the `Releases` folder of this repository
+1. Download [`SetMyStyle-v2.apk`](https://github.com/wmaterkowska/SetMyStyle/releases/download/v2/SetMyStyle-v2.apk) from the [latest release](https://github.com/wmaterkowska/SetMyStyle/releases/latest)
 2. On your Android device, open the downloaded file
 3. If prompted, allow installation from unknown sources
 4. Install and open the app
 
 **Upgrading from v1?** Install v2 over it — your wardrobe and photos are kept.
-The previous version is still available as [`SetMyStyle-v1.apk`](Releases/SetMyStyle-v1.apk).
+The previous version is still available as [`SetMyStyle-v1.apk`](https://github.com/wmaterkowska/SetMyStyle/releases/download/v1/SetMyStyle-v1.apk).
 
 > Your data is stored locally on your device and is never sent anywhere. The app never connects to the internet.  
 > New versions are published here — download and install them manually.
